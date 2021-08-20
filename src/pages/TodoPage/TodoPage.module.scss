@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+.todoContainer {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  align-items: center;
+  justify-content: center;
+  input {
+    width: 240px;
+  }
+}
+.tasksList {
+  display: flex;
+  flex-direction: column;
+  //   width: 380px;
+  align-items: center;
+  justify-content: space-between;
+  li {
+    display: flex;
+    flex-direction: row;
+    // align-items: center;
+    // justify-content: center;
+    border: 2px solid rgb(91, 228, 171);
+  }
+  .buttons {
+    margin-left: auto;
+  }
+}
